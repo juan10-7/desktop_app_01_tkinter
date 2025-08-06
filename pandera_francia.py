@@ -28,30 +28,29 @@ ventana_principal.resizable(0,0)
 # color de fondo de la pantalla
 ventana_principal.config(bg="black")
 
-#---------------
-# frame 1
-#---------------
+#-----------------------------
+# Frame 1
+# -----------------------------
 
 frame_1 = Frame(ventana_principal)
-frame_1.config(bg="yellow", width=780, height=240)
-frame_1.place(x=10,y=10)
+frame_1.config(bg="blue", width=260, height=480)
+frame_1.place(x=10, y=10)
 
-#---------------
-# frame 2
-#---------------
+# -----------------------------
+# Frame 2
+# -----------------------------
 
 frame_2 = Frame(ventana_principal)
-frame_2.config(bg="blue", width=780, height=120)
-frame_2.place(x=10,y=250)
+frame_2.config(bg="white", width=260, height=480)
+frame_2.place(x=270, y=10)
 
-#---------------
-# frame 3
-#---------------
+# -----------------------------
+# Frame 3
+# -----------------------------
 
 frame_3 = Frame(ventana_principal)
-frame_3.config(bg="red", width=780, height=120)
-frame_3.place(x=10,y=370)
-
+frame_3.config(bg="red", width=260, height=480)
+frame_3.place(x=530, y=10)
 
 # metodo principal que despliega la ventana en la pantalla
 ventana_principal.mainloop()
